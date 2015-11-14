@@ -14,8 +14,8 @@ template<class ItemType>
 class Node
 {
 private:
-    ItemType item;        // A data item
-    Node<ItemType>* next; // Pointer to next node
+    ItemType item;        // a data item
+    Node<ItemType>* next; // pointer to next node
 public:
     Node();
     Node(const ItemType& anItem);
@@ -27,5 +27,4 @@ public:
     void mergeSort(Node<ItemType>*& head);
     Node<ItemType>* merge(Node<ItemType>*& head1, Node<ItemType>*& head2);
 };
-
-#endif 
+#endif
